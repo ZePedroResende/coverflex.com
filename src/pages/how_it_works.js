@@ -5,7 +5,8 @@ import laptop from "../images/how_it_works/laptop.svg"
 import Navbar from "../components/navbar"
 
 const Phone = () => (
-  <section class="section">
+  <section class="section notification is-marginless">
+    <Navbar />
     <div class="container ">
       <div class="tile is-ancestor">
         <div class="tile is-vertical ">
@@ -17,6 +18,9 @@ const Phone = () => (
                 <h2 class="title">How does it work?</h2>
               </div>
               <div class="tile is-child "></div>
+            </div>
+            <div class="tile is-parent is-1">
+              <div class="tile is-parent"></div>
             </div>
             <div class="tile is-parent">
               <article class="tile is-child">
@@ -59,9 +63,7 @@ const Setup = () => (
           <br />
           <div className="columns ">
             <div className="column ">
-              <h5 class="is-size-1" style={{ color: "#F0814D" }}>
-                01
-              </h5>
+              <h5 class="setup-number">01</h5>
 
               <div className="columns ">
                 <div className="column is-1"></div>
@@ -76,10 +78,7 @@ const Setup = () => (
               </div>
             </div>
             <div className="column ">
-              <h5 class="is-size-1" style={{ color: "#F0814D" }}>
-                02
-              </h5>
-
+              <h5 class="setup-number">02</h5>
               <div className="columns ">
                 <div className="column is-1"></div>
                 <div className="column ">
@@ -93,10 +92,7 @@ const Setup = () => (
               </div>
             </div>
             <div className="column ">
-              <h5 class="is-size-1" style={{ color: "#F0814D" }}>
-                03
-              </h5>
-
+              <h5 class="setup-number">03</h5>
               <div className="columns ">
                 <div className="column is-1"></div>
                 <div className="column ">
@@ -183,7 +179,7 @@ const Start = () => (
             <p class="subtitle">Select your plan</p>
             <p class="title">Are you ready to start?</p>
             <div className="button is-primary is-rounded is-medium">
-              <span className="is-size-6">Get started</span>
+              <b className="is-size-6">Get started</b>
             </div>
           </div>
           <div>
@@ -201,7 +197,6 @@ const Start = () => (
 
 export default () => (
   <div>
-    <Navbar />
     <Phone />
     <Setup />
     <Support />
