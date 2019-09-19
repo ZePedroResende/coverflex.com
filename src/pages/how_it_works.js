@@ -48,41 +48,65 @@ const Phone = () => (
 const Setup = () => (
   <section class="section">
     <div class="container">
-      <div class="tile is-ancestor">
-        <div class="tile is-vertical">
-          <div class="tile is-parent has-text-centered">
-            <article class="tile is-child">
-              <p class="subtitle">Let’s start from the top</p>
-              <p class="title">Painless and automated setup</p>
-              <div class="content"></div>
-            </article>
+      <div className="columns is-vcentered">
+        <div className="column ">
+          <div className="has-text-centered ">
+            <p class="subtitle">Let’s start from the top</p>
+            <p class="title">Painless and automated setup</p>
           </div>
-          <div class="tile">
-            <div class="tile is-parent">
-              <div class="tile is-child ">
-                <h2 class="title">Select a plan that works for you</h2>
-                <h1 class="subtitle">
-                  Pay per employee, per month, or get in touch with us for a
-                  custom solution that fits you business model and market needs
-                </h1>
+
+          <br />
+          <br />
+          <div className="columns ">
+            <div className="column ">
+              <h5 class="is-size-1" style={{ color: "#F0814D" }}>
+                01
+              </h5>
+
+              <div className="columns ">
+                <div className="column is-1"></div>
+                <div className="column ">
+                  <h2 class="title">Select a plan that works for you</h2>
+                  <h1 class="subtitle">
+                    Pay per employee, per month, or get in touch with us for a
+                    custom solution that fits you business model and market
+                    needs
+                  </h1>
+                </div>
               </div>
             </div>
-            <div class="tile is-parent">
-              <div class="tile is-child ">
-                <h2 class="title">Select a plan that works for you</h2>
-                <h1 class="subtitle">
-                  Pay per employee, per month, or get in touch with us for a
-                  custom solution that fits you business model and market needs
-                </h1>
+            <div className="column ">
+              <h5 class="is-size-1" style={{ color: "#F0814D" }}>
+                02
+              </h5>
+
+              <div className="columns ">
+                <div className="column is-1"></div>
+                <div className="column ">
+                  <h2 class="title">Select a plan that works for you</h2>
+                  <h1 class="subtitle">
+                    Pay per employee, per month, or get in touch with us for a
+                    custom solution that fits you business model and market
+                    needs
+                  </h1>
+                </div>
               </div>
             </div>
-            <div class="tile is-parent">
-              <div class="tile is-child ">
-                <h2 class="title">Select a plan that works for you</h2>
-                <h1 class="subtitle">
-                  Pay per employee, per month, or get in touch with us for a
-                  custom solution that fits you business model and market needs
-                </h1>
+            <div className="column ">
+              <h5 class="is-size-1" style={{ color: "#F0814D" }}>
+                03
+              </h5>
+
+              <div className="columns ">
+                <div className="column is-1"></div>
+                <div className="column ">
+                  <h2 class="title">Select a plan that works for you</h2>
+                  <h1 class="subtitle">
+                    Pay per employee, per month, or get in touch with us for a
+                    custom solution that fits you business model and market
+                    needs
+                  </h1>
+                </div>
               </div>
             </div>
           </div>
