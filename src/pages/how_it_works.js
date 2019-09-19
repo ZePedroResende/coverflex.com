@@ -162,7 +162,9 @@ const Dashboard = () => (
                 want.
               </p>
             </div>
-            <img src={laptop} alt="" />
+            <div className="column">
+              <img src={laptop} alt="" />
+            </div>
           </div>
         </div>
       </div>
