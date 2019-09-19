@@ -1,8 +1,8 @@
 import React from "react"
 import coverflex from "../images/how_it_works/coverflex.svg"
-import "../styles/how_it_works.sass"
+import "../styles/navbar.sass"
 
-export default () => (
+export default Navbar => (
   <div>
     <nav
       class="navbar is-transparent"
@@ -10,7 +10,7 @@ export default () => (
       aria-label="main navigation"
     >
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
+        <a class="navbar-item">
           <img src={coverflex}></img>
         </a>
 
