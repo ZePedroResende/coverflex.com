@@ -5,7 +5,10 @@ import laptop from "../images/how_it_works/laptop.svg"
 import Navbar from "../components/navbar"
 
 const Phone = () => (
-  <section class="section notification is-marginless">
+  <section
+    class="section is-marginless"
+    style={{ backgroundColor: "whitesmoke" }}
+  >
     <Navbar />
     <div class="container ">
       <div class="tile is-ancestor">

@@ -15,16 +15,3 @@
   font-size: 14px;
   line-height: 14px;
 }
-
-.rhombus, .rhombus-light {
-  position: absolute;
-  width: 120%;
-  height: 100%;
-  background: $orange;
-  transform: skew(45deg);
-}
-
-.rhombus-light {
-  mix-blend-mode: normal;
-  opacity: 0.2;
-}
